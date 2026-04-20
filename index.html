@@ -1,0 +1,400 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <meta name="description" content="Nadeem Bin Shajahan — independent designer and developer crafting motion-first digital experiences." />
+    <title>Nadeem Bin Shajahan — Designer &amp; Developer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="cursor" aria-hidden="true">
+      <div class="cursor__dot"></div>
+      <div class="cursor__ring"></div>
+    </div>
+
+    <div class="noise" aria-hidden="true"></div>
+
+    <div class="page-transition" aria-hidden="true">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+
+    <header class="nav" data-nav>
+      <a href="#top" class="nav__mark" data-magnetic>
+        <span class="nav__mark-dot"></span>
+        <span class="nav__mark-text">NBS<sup>©</sup></span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#work" data-link><span>01</span>Work</a>
+        <a href="#about" data-link><span>02</span>About</a>
+        <a href="#playground" data-link><span>03</span>Playground</a>
+        <a href="#contact" data-link><span>04</span>Contact</a>
+      </nav>
+      <a href="#contact" class="nav__cta" data-magnetic>
+        <span class="nav__cta-label">Let's talk</span>
+        <span class="nav__cta-pulse"></span>
+      </a>
+    </header>
+
+    <main id="top">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero__meta">
+          <span class="hero__meta-item" data-fade>Portfolio <em>— 2026</em></span>
+          <span class="hero__meta-item" data-fade>Based in Bengaluru · Available worldwide</span>
+          <span class="hero__meta-item hero__clock" data-fade>
+            <span class="hero__clock-dot"></span>
+            <span data-clock>—</span> IST
+          </span>
+        </div>
+
+        <h1 class="hero__title" aria-label="Motion. Matter. Meaning.">
+          <span class="line"><span class="word" data-split>Motion.</span></span>
+          <span class="line"><span class="word hero__title-italic" data-split>Matter.</span></span>
+          <span class="line">
+            <span class="word" data-split>Meaning</span><span class="hero__title-period" data-split>.</span>
+          </span>
+        </h1>
+
+        <div class="hero__bottom">
+          <p class="hero__lede" data-reveal>
+            I'm <strong>Nadeem</strong>, a designer-developer crafting interactive
+            brands, products and stories that <em>feel</em> as considered as they look.
+          </p>
+
+          <a href="#work" class="hero__scroll" data-magnetic aria-label="Scroll to work">
+            <span class="hero__scroll-label">Scroll</span>
+            <span class="hero__scroll-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M12 4v16m0 0l-6-6m6 6l6-6" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        <div class="hero__orbit" aria-hidden="true">
+          <div class="hero__orbit-ring"></div>
+          <div class="hero__orbit-ring hero__orbit-ring--two"></div>
+          <div class="hero__orbit-star"></div>
+        </div>
+      </section>
+
+      <!-- MARQUEE -->
+      <section class="marquee" aria-hidden="true">
+        <div class="marquee__track" data-marquee>
+          <span>Brand Systems</span><span class="marquee__dot">✺</span>
+          <span>Motion Design</span><span class="marquee__dot">✺</span>
+          <span>Creative Dev</span><span class="marquee__dot">✺</span>
+          <span>Art Direction</span><span class="marquee__dot">✺</span>
+          <span>Interaction</span><span class="marquee__dot">✺</span>
+          <span>Brand Systems</span><span class="marquee__dot">✺</span>
+          <span>Motion Design</span><span class="marquee__dot">✺</span>
+          <span>Creative Dev</span><span class="marquee__dot">✺</span>
+          <span>Art Direction</span><span class="marquee__dot">✺</span>
+          <span>Interaction</span><span class="marquee__dot">✺</span>
+        </div>
+      </section>
+
+      <!-- WORK -->
+      <section class="work" id="work">
+        <header class="section-head">
+          <span class="section-head__index" data-reveal>(01)</span>
+          <h2 class="section-head__title" data-split-lines>
+            Selected work from the last <em>few orbits</em>
+            around the sun.
+          </h2>
+          <p class="section-head__desc" data-reveal>
+            A handful of projects shipped for founders, studios and teams who
+            care about craft as much as speed.
+          </p>
+        </header>
+
+        <ul class="projects" role="list">
+          <li class="project" data-project style="--hue: 18; --accent: #ff6b35;">
+            <a href="#" class="project__link" data-magnetic data-strength="0.2">
+              <div class="project__media" data-parallax>
+                <div class="project__visual project__visual--aurora">
+                  <span class="blob blob--1"></span>
+                  <span class="blob blob--2"></span>
+                  <span class="blob blob--3"></span>
+                  <span class="project__grid"></span>
+                </div>
+              </div>
+              <div class="project__info">
+                <span class="project__index">01</span>
+                <h3 class="project__title">Aurora OS</h3>
+                <span class="project__meta">Product design · 2025</span>
+                <span class="project__cta">
+                  View case study
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="project" data-project style="--hue: 210; --accent: #6b8cff;">
+            <a href="#" class="project__link" data-magnetic data-strength="0.2">
+              <div class="project__media" data-parallax>
+                <div class="project__visual project__visual--wave">
+                  <svg viewBox="0 0 400 300" preserveAspectRatio="none">
+                    <defs>
+                      <linearGradient id="wave1" x1="0" x2="1" y1="0" y2="1">
+                        <stop offset="0" stop-color="#6b8cff" />
+                        <stop offset="1" stop-color="#1a2a5c" />
+                      </linearGradient>
+                    </defs>
+                    <path fill="url(#wave1)" d="M0 180 Q 100 120 200 170 T 400 150 L 400 300 L 0 300 Z">
+                      <animate attributeName="d"
+                        dur="7s" repeatCount="indefinite"
+                        values="M0 180 Q 100 120 200 170 T 400 150 L 400 300 L 0 300 Z;
+                                M0 160 Q 100 200 200 150 T 400 180 L 400 300 L 0 300 Z;
+                                M0 180 Q 100 120 200 170 T 400 150 L 400 300 L 0 300 Z" />
+                    </path>
+                    <path fill="#6b8cff" opacity="0.3" d="M0 210 Q 120 160 220 200 T 400 200 L 400 300 L 0 300 Z">
+                      <animate attributeName="d"
+                        dur="5s" repeatCount="indefinite"
+                        values="M0 210 Q 120 160 220 200 T 400 200 L 400 300 L 0 300 Z;
+                                M0 200 Q 120 240 220 210 T 400 190 L 400 300 L 0 300 Z;
+                                M0 210 Q 120 160 220 200 T 400 200 L 400 300 L 0 300 Z" />
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="project__info">
+                <span class="project__index">02</span>
+                <h3 class="project__title">Tidewater</h3>
+                <span class="project__meta">Brand &amp; site · 2025</span>
+                <span class="project__cta">
+                  View case study
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="project" data-project style="--hue: 130; --accent: #7bd389;">
+            <a href="#" class="project__link" data-magnetic data-strength="0.2">
+              <div class="project__media" data-parallax>
+                <div class="project__visual project__visual--type">
+                  <div class="kinetic">
+                    <span>form</span><span>function</span><span>feeling</span>
+                    <span>form</span><span>function</span><span>feeling</span>
+                  </div>
+                </div>
+              </div>
+              <div class="project__info">
+                <span class="project__index">03</span>
+                <h3 class="project__title">Lumen Type</h3>
+                <span class="project__meta">Typeface · 2024</span>
+                <span class="project__cta">
+                  View case study
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </li>
+
+          <li class="project" data-project style="--hue: 300; --accent: #e07bd3;">
+            <a href="#" class="project__link" data-magnetic data-strength="0.2">
+              <div class="project__media" data-parallax>
+                <div class="project__visual project__visual--orbit">
+                  <span class="dot-orbit"></span>
+                  <span class="dot-orbit dot-orbit--2"></span>
+                  <span class="dot-orbit dot-orbit--3"></span>
+                  <span class="center-star"></span>
+                </div>
+              </div>
+              <div class="project__info">
+                <span class="project__index">04</span>
+                <h3 class="project__title">Halcyon</h3>
+                <span class="project__meta">App &amp; motion · 2024</span>
+                <span class="project__cta">
+                  View case study
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                    <path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </span>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="about" id="about">
+        <header class="section-head">
+          <span class="section-head__index" data-reveal>(02)</span>
+          <h2 class="section-head__title" data-split-lines>
+            A designer who <em>writes code</em>, a developer who
+            <em>draws curves</em>.
+          </h2>
+        </header>
+
+        <div class="about__grid">
+          <div class="about__copy">
+            <p data-reveal>
+              I've spent the last seven years at the intersection of design and
+              engineering — shipping products, identities and interactive
+              stories with studios like Aurora, Tidewater and a handful of
+              lovely founders.
+            </p>
+            <p data-reveal>
+              My work lives in the gap between <em>static</em> and
+              <em>alive</em>. Every easing curve, every rest state, every
+              pixel of reveal is a tiny chance to make the web feel more
+              human.
+            </p>
+            <p data-reveal>
+              Currently exploring the overlap of generative motion, type, and
+              agentic interfaces. Slowly, on purpose.
+            </p>
+          </div>
+
+          <aside class="about__sidebar">
+            <div class="about__card" data-reveal>
+              <span class="about__card-label">Currently</span>
+              <strong>Independent practice</strong>
+              <span>Remote · Bengaluru ⇄ World</span>
+            </div>
+            <div class="about__card" data-reveal>
+              <span class="about__card-label">Toolkit</span>
+              <ul>
+                <li>Figma, After Effects</li>
+                <li>React, Next, Three.js</li>
+                <li>GSAP, WebGL, Rive</li>
+                <li>Swift, RN (occasionally)</li>
+              </ul>
+            </div>
+            <div class="about__card" data-reveal>
+              <span class="about__card-label">Recognition</span>
+              <ul>
+                <li>Awwwards SOTD ×4</li>
+                <li>FWA of the Day ×2</li>
+                <li>CSSDA Winner ×3</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+
+        <div class="counter-row" data-counters>
+          <div class="counter">
+            <span class="counter__num" data-count="48">00</span>
+            <span class="counter__label">Projects shipped</span>
+          </div>
+          <div class="counter">
+            <span class="counter__num" data-count="27">00</span>
+            <span class="counter__label">Happy clients</span>
+          </div>
+          <div class="counter">
+            <span class="counter__num" data-count="9">0</span>
+            <span class="counter__label">Awards won</span>
+          </div>
+          <div class="counter">
+            <span class="counter__num" data-count="7">0</span>
+            <span class="counter__label">Years at it</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- PLAYGROUND -->
+      <section class="playground" id="playground">
+        <header class="section-head">
+          <span class="section-head__index" data-reveal>(03)</span>
+          <h2 class="section-head__title" data-split-lines>
+            Experiments from the <em>sketchbook</em>.
+          </h2>
+        </header>
+
+        <div class="playground__grid">
+          <article class="play-card" data-reveal>
+            <div class="play-card__visual play-card__visual--a"></div>
+            <h3>Noise Fields</h3>
+            <p>GLSL simplex noise pushed through a displacement filter.</p>
+          </article>
+          <article class="play-card" data-reveal>
+            <div class="play-card__visual play-card__visual--b"></div>
+            <h3>Ribbon Trails</h3>
+            <p>Cursor-following SVG ribbons with easing and decay.</p>
+          </article>
+          <article class="play-card" data-reveal>
+            <div class="play-card__visual play-card__visual--c"></div>
+            <h3>Type on Path</h3>
+            <p>Kinetic lockups that respond to scroll velocity.</p>
+          </article>
+          <article class="play-card" data-reveal>
+            <div class="play-card__visual play-card__visual--d"></div>
+            <h3>Soft Gradients</h3>
+            <p>Two-color fields that breathe with time and pointer.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="contact__inner">
+          <span class="section-head__index" data-reveal>(04)</span>
+          <h2 class="contact__title">
+            <span class="line"><span data-split>Got something</span></span>
+            <span class="line"><span data-split class="italic">in mind?</span></span>
+            <span class="line"><span data-split>Let's make it</span></span>
+            <span class="line"><span data-split class="italic">move.</span></span>
+          </h2>
+
+          <a href="mailto:hi@nadeem.studio" class="contact__email" data-magnetic data-strength="0.3">
+            <span class="contact__email-label">hi@nadeem.studio</span>
+            <span class="contact__email-arrow">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+                <path d="M7 17L17 7M9 7h8v8" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </a>
+
+          <ul class="contact__socials">
+            <li><a href="#" data-link>Instagram</a></li>
+            <li><a href="#" data-link>Read.cv</a></li>
+            <li><a href="#" data-link>Are.na</a></li>
+            <li><a href="#" data-link>LinkedIn</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__row">
+          <span>© 2026 Nadeem Bin Shajahan</span>
+          <span>Designed &amp; built with care in Bengaluru</span>
+          <span data-clock>—</span>
+        </div>
+        <div class="footer__mark" data-marquee-slow>
+          <span>Available for select projects</span>
+          <em>✺</em>
+          <span>Summer 2026</span>
+          <em>✺</em>
+          <span>Available for select projects</span>
+          <em>✺</em>
+          <span>Summer 2026</span>
+          <em>✺</em>
+        </div>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+    <script src="./script.js" defer></script>
+  </body>
+</html>
