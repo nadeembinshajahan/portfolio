@@ -856,6 +856,19 @@ section {
   color: var(--fg-dim);
 }
 
+.project__desc {
+  max-width: 50ch;
+  margin-top: 0.4rem;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: var(--fg-dim);
+}
+
+.project__desc strong {
+  color: var(--fg);
+  font-weight: 500;
+}
+
 .project__cta {
   display: inline-flex;
   align-items: center;
